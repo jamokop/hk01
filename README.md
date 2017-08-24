@@ -1,5 +1,5 @@
 # hk01
-<a href="http://www.begflag.com">Live Demo</a>
+<a target="_blank" href="http://www.begflag.com">Live Demo</a>
 <h3>Directory<h3>
 <table>
 <tr>
