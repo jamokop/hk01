@@ -1,0 +1,52 @@
+{
+  "name": "payment",
+  "version": "1.0.0",
+  "description": "payment",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "NODE_ENV='production' webpack -p"
+  },
+  "author": "jam",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ],
+    "plugins": [
+      "transform-class-properties",
+      "transform-object-rest-spread"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "braintree-web": "^3.22.2",
+    "js-sha1": "^0.4.1",
+    "query-string": "^5.0.0",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.2",
+    "react-dom": "^15.6.1",
+    "react-loading": "^0.1.4",
+    "react-router-dom": "^4.1.2",
+    "react-validation": "^2.10.9",
+    "redux": "^3.7.2",
+    "validator": "^8.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "deep-freeze": "0.0.1",
+    "expect": "^1.20.2",
+    "html-webpack-plugin": "^2.29.0",
+    "react-redux": "^5.0.5",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.2.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
