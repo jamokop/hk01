@@ -31,11 +31,11 @@ CREATE TABLE `payment_record` (
   `payment_ref_code` varchar(255) NOT NULL DEFAULT '',
   `payment_state` varchar(100) NOT NULL DEFAULT '',
   `creat_time` datetime NOT NULL,
-  `hash` varchar(100) NOT NULL DEFAULT '',
+  `hash` varchar(100) NOT NULL DEFAULT '', #sha1(firstname.lastname.payment_ref_code) for query use
   `payment_create_time` datetime NOT NULL,
   `payment_update_time` datetime NOT NULL,
-  `status` int(3) NOT NULL DEFAULT '1',
-  `response` text,
+  `status` int(3) NOT NULL DEFAULT '1', # will be updated when ipn arrives
+  `response` text, # payment response
   PRIMARY KEY (`id`),
   KEY `hash` (`hash`)
 )
