@@ -38,6 +38,5 @@ CREATE TABLE `payment_record` (
   `response` text, # payment response
   PRIMARY KEY (`id`),
   KEY `hash` (`hash`)
-)
-</pre>
-</table>
+)</pre>
+<a target="_blank" href="https://developers.braintreepayments.com/reference/general/testing/php">braintree test reference</a>
