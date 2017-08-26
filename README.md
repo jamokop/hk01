@@ -1,6 +1,7 @@
 # hk01
 <a target="_blank" href="http://www.begflag.com">Live Demo</a>
 <p>if u want to deploy in your server,please use the dist folder as web root</p>
+<a target="_blank" href="https://gkedge.gitbooks.io/react-router-in-the-real/content/nginx.html">web server setup</a>
 <h3>Directory<h3>
 <table>
 <tr>
