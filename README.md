@@ -1,5 +1,6 @@
 # hk01
 <a target="_blank" href="http://www.begflag.com">Live Demo</a>
+<p>if u want to deploy in your server,please use the dist folder as web root</p>
 <h3>Directory<h3>
 <table>
 <tr>
