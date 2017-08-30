@@ -43,4 +43,5 @@ CREATE TABLE `payment_record` (
   KEY `hash` (`hash`)
 )</pre>
 <a target="_blank" href="https://developers.braintreepayments.com/reference/general/testing/php">braintree test reference</a>
+<br/>
 <a target="_blank" href="https://www.paypal-knowledge.com/infocenter/index?page=content&id=FAQ1413&expand=true&locale=en_US">paypal test reference</a>
