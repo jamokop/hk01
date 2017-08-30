@@ -36,11 +36,6 @@ class Home extends React.Component {
                 }, function (err, response) {
                     if(err) {
                         console.log(err);
-                        // store.dispatch({
-                            // 'type':'show',
-                            // 'code':'error',
-                            // 'message':err.code
-                        // });
                         data['nonce'] = '';
                     } else {
                         data['nonce'] = response.creditCards[0].nonce;
@@ -55,9 +50,15 @@ class Home extends React.Component {
                             'message':data.data.message
                         });
                         Object.keys(form).forEach((name) => {
-                            form[name].setState({
-                                value:''
-                            });
+                            if (name == 'currency') {
+                                form[name].setState({
+                                    value:'HKD'
+                                });
+                            } else {
+                                form[name].setState({
+                                    value:''
+                                });
+                            }
                         });
                     });
                 });
